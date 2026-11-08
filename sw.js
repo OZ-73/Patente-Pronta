@@ -1,6 +1,6 @@
 /* Service worker di Patente Pronta: l'app funziona anche senza rete dopo la prima apertura.
    Cambia VERSION quando cambiano bank.json o le figure, così la cache si rinnova. */
-const VERSION = 'v2';
+const VERSION = 'v3';
 const CACHE = 'patente-pronta-' + VERSION;
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'bank.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png'];
