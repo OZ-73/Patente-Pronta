@@ -1,0 +1,17 @@
+{
+  "name": "Patente Pronta",
+  "short_name": "Patente Pronta",
+  "description": "Quiz per la patente B con l'archivio ufficiale del Ministero, simulazione d'esame e test dei riflessi.",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F2F5F9",
+  "theme_color": "#0D4FA3",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
